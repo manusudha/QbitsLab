@@ -1,6 +1,12 @@
 export default function Getintouch(){
-    return <div id="getintouch"className="flex flex-col items-center w-full m-auto py-16 md:py-20 lg:py-24">                 
-                                <div className="bg-gray-200 h-8 w-32 text-center flex items-center justify-center rounded-full text-[#6E2DFA]">Get In Touch</div>
+    return <div id="getintouch"className=" text-sm flex flex-col items-center w-full m-auto py-16 md:py-20 lg:py-24">                 
+                                <div className="flex gap-2 bg-gray-200 h-8 w-32 text-center flex items-center justify-center rounded-full text-[#6E2DFA]">
+                                    <span className="relative  flex size-2">
+                                         <span className="absolute h-2 w-2 rounded-full animate-ping bg-[#6E2DFA]"></span>
+                                         <span className="relative h-2 w-2 rounded-full bg-[#6E2DFA]"></span>
+                                    </span>
+                                    <p>Get In Touch</p>
+                                </div>
                                 <div className="flex gap-2 text-3xl font-bold mt-4">
                                       <p className="text-4xl font-bold text-center">From Concept to <span class="text-[#6E2DFA]">Code-let's</span> Lauch Today</p>
                                 </div>

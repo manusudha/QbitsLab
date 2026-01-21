@@ -1,5 +1,5 @@
 export default function Footer(){
-    return <div id="footer" className="m-auto mx-auto mt-12 py-8 md:py-12 lg:py-16 w-full px-4 md:px-6 lg:px-8">
+    return <div id="footer" className="m-auto mx-auto mt-12 py-8 md:py-12 lg:py-16 w-full px-4 md:px-6 lg:px-8 text-sm">
                             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 md:gap-10">
                                 {/*-------------------------*/}
                                 <div className="flex flex-col gap-6  ">
