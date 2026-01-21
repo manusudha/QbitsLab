@@ -3,6 +3,12 @@
 
 @custom-variant dark (&:is(.dark *));
 
+input, textarea, select {
+  font-size: 16px; /* Prevents iOS from zooming in on focus */
+  max-width: 100%;
+  box-sizing: border-box; /* Ensures padding doesn't add to the width */
+}
+
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
