@@ -20,7 +20,7 @@ export default function Home(){
                    <div className=" ">
                            <div className="relative">
                                  <img className="relative md:h-[500px] md:w-[700px] "src={desktopui} alt="" />
-                                 <img className="absolute md:h-[400px] md:w-[220px] md:w-1/3 top-0 left-0 drop-shadow-2xl border-4 border-gray-200 rounded-xl "src={phoneui} alt="" />
+                                 <img className="absolute md:h-[400px] md:w-[220px] md:w-1/3 top-0 left-0 drop-shadow-2xl border-2 border-gray-200 rounded-xl "src={phoneui} alt="" />
                            </div>
                   </div>
                
