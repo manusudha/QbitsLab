@@ -1,5 +1,5 @@
 export default function Services(){
-    return <div id="services" className="flex justify-center items-center ">
+    return <div id="services" className="flex justify-center items-center mt-32">
                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-24">
                     {/*---------------------*/}
                      <div className=" relative w-76 h-[257px] bg-white justify-center text-center rounded-md flex flex-col border border-gray-100  hover:border-[#6E2DFA] hover:text-[#6E2DFA]">   

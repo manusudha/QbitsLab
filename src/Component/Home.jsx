@@ -5,7 +5,7 @@ export default function Home(){
     return  <div className="md:flex md:flex-row md:w-full md:justify-between mt-16">
                   <div className="flex md:justify-center justify-center items-center mx-auto">
                            <div className=" md:text-base font-bold text-base justify-center">
-                                  <div className="text-4xl"><span className="text-[100px]">W</span>e build the </div>
+                                  <div className="text-4xl"><span className="text-[100px]">W</span>e build</div>
                                     <PointerHighlight
                                         rectangleClassName="bg-green-100 dark:bg-green-900 border-green-300 dark:border-green-700 leading-loose"
                                         pointerClassName="text-green-500 h-3 w-3"
