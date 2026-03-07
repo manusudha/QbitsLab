@@ -11,7 +11,7 @@ export default function  App(){
   const [color,setColor]=useState(false)
   return <div className={`w-full ${color?"bg-black":"bg-white"}`}>
      
-            <Navbar color={color} setColor={setColor}/>
+            <Navbar color={color} setCo lor={setColor}/>
             <Home/>
             <Services/>
             <Technology/>
