@@ -42,7 +42,7 @@ export default function Technology(){
                                 </div>
                                 {/*---------------------------------- */}
                                  <div className="h-36 w-44 bg-white border border-gray-100 rounded-md flex flex-col gap-2">
-                                    <div className="flex justify-center bg-gray-50 h-12 w-12 items-center mx-auto rounded-md my-auto">< img className="h-8 w-8" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/512px-ChatGPT_logo.svg.png" alt="" /></div>
+                                    <div className="flex justify-center bg-gray-50 h-12 w-12 items-center mx-auto rounded-md my-auto">< img className="h-8 w-8" src="https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg" alt="" /></div>
                                     <div className="font-semibold mx-auto">OpenAI</div>
                                     <div className="text-gray-500 mx-auto">Advanced AI Models</div>
                                 </div>
