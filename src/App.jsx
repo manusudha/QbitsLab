@@ -6,18 +6,29 @@ import Technology from "./Component/Technology"
 import Getintouch from "./Component/Getintouch"
 import Footer from "./Component/Footer"
 import Copyright from "./Component/Copyright"
-import { BrowserRouter } from "react-router-dom"
+import { BrowserRouter,Routes,Route } from "react-router-dom"
+import Aboutus from "./Component/Aboutus"
 export default function  App(){
   const [color,setColor]=useState(false)
   return <div className={`w-full ${color?"bg-black":"bg-white"}`}>
-     
-            <Navbar color={color} setColor={setColor}/>
-            <Home/>
-            <Services/>
-            <Technology/>
-            <Getintouch/>
-            <Footer/>
-            <Copyright/>
+           <BrowserRouter>
+              <Navbar color={color} setColor={setColor}/>
+               <Routes>
+                    <Route path="/"
+                       element={ 
+                        <>
+                        <Home/>
+                        <Services/>   
+                        <Technology/>
+                        <Getintouch/>
+                        <Footer/>
+                        <Copyright/>
+                        </>
+                       } />
+               
+                    <Route path="/about-us" element={<Aboutus/>}/>
+              </Routes>
+            </BrowserRouter>
          
          </div>
 }

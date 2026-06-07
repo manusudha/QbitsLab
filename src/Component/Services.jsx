@@ -10,7 +10,7 @@ export default function Services(){
                         </div>
                         <div className="flex flex-col gap-6 h-[240px] ">
                             <div className="text-justify font-bold hover:text-[#6E2DFA] text-sm">Custom Software And WebApps/websites</div>
-                                <article ><p className="text-justify leading-relaxed text-gray-600 text-sm">Build a scalable web application with Reactjs nextjs and node js we create powerfull backend API's microservice and Admin Dashboard that scale</p></article>
+                                <article ><p className="text-justify leading-relaxed text-gray-600 text-sm">Build a scalable web application with Reactjs nextjs and node js we create powerful backend APIs microservice and Admin Dashboard that scale</p></article>
                                 <div className="flex flex-row gap-6">
                                     <span className="text-center w-16 bg-gray-100 text-gray-500 rounded-md text-sm">React</span>
                                     <span className="text-center w-16 bg-gray-100 text-gray-500 rounded-md text-sm">Next.js</span>
@@ -46,7 +46,7 @@ export default function Services(){
                            </div>
                         <div className="flex flex-col gap-6 h-[240px]">
                             <div className="text-justify font-bold hover:text-[#6E2DFA] text-sm">AI chatbots & Assistants</div>
-                                <article ><p className="text-justify leading-relaxed text-gray-600 text-sm">intelligent chatbots integrated with Firestore & FCM. omni-channel messaging across whatsApp, slack, Email, and SMS-all in one solution.</p></article>
+                                <article ><p className="text-justify leading-relaxed text-gray-600 text-sm">intelligent chatbots integrated with Firestore & FCM. omni-channel messaging across WhatsApp, Slack, Email, and SMS - all in one solution.</p></article>
                                 <div className="flex flex-row gap-6">
                                     <span className="text-center w-16 bg-gray-100 text-gray-500 rounded-md text-sm">chatbots</span>
                                     <span className="text-center w-28 bg-gray-100 text-gray-500 rounded-md text-sm">omni-channel</span>

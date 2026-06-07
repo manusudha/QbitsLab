@@ -21,10 +21,10 @@ export default function Getintouch(){
                                     <p>Get In Touch</p> 
                                 </div>
                                 <div className="flex gap-2 text-3xl font-bold mt-4">
-                                      <p className="text-4xl font-bold text-center">From Concept to <span class="text-[#6E2DFA]">Code-let's</span> Lauch Today</p>
+                                      <p className="text-4xl font-bold text-center">From Concept to <span class="text-[#6E2DFA]">Code-let's</span> Launch Today</p>
                                 </div>
-                                <div className="text-gray-600 mt-6 text-md text-center">Have a Idea in mind ? Reach out through below Channel </div>
-                                <div className="h-32 w-72 bg-white border border-gray-300 rounded-md flex flex-row gap-8 justify-center items-center hover:text-[#6E2DFA] hover:border-[#6E2DFA] mt-8 cursor-pointer"
+                                <div className="text-gray-600 mt-6 text-md text-center">Have an Idea in mind ? Reach out through below Channel </div>
+                                <a href="mailto:lab.qbits@gmail.com" className="h-32 w-72 bg-white border border-gray-300 rounded-md flex flex-row gap-8 justify-center items-center hover:text-[#6E2DFA] hover:border-[#6E2DFA] mt-8 cursor-pointer"
                                      onClick={handleCopy}
                                 >
                                             <div className="flex justify-center items-center h-12 w-18 bg-gray-200 rounded-md">
@@ -32,10 +32,10 @@ export default function Getintouch(){
                                             </div>
                                             <div className="flex flex-col justify-center items-center ">
                                                     <div className="text-gray-600" >Sales Email</div>
-                                                    <div className="text-gray-600">lab.quits@gmail.com</div>
+                                                    <div className="text-gray-600">lab.qbits@gmail.com</div>
                                             </div>
                                         
-                                </div>
+                                </a>
                                 <div className="text-[#6E2DFA]"> Click to copy Email !</div>
            </div>
 }
