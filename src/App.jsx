@@ -6,12 +6,14 @@ import Technology from "./Component/Technology"
 import Getintouch from "./Component/Getintouch"
 import Footer from "./Component/Footer"
 import Copyright from "./Component/Copyright"
+import { Analytics } from "@vercel/analytics/react"
 import { BrowserRouter,Routes,Route } from "react-router-dom"
 import Aboutus from "./Component/Aboutus"
 export default function  App(){
   const [color,setColor]=useState(false)
   return <div className={`w-full ${color?"bg-black":"bg-white"}`}>
            <BrowserRouter>
+             <Analytics/>
               <Navbar color={color} setColor={setColor}/>
                <Routes>
                     <Route path="/"
