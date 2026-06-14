@@ -1,11 +1,13 @@
 import {useState} from "react"
 import { HashLink as Link } from 'react-router-hash-link';
 import Qbitlogo from "../Images/qbitslogo.avif"
+import {useNavigate} from "react-router-dom"
 export default function Navbar({setColor,color}){
+const navigate=useNavigate();
 const [isActive,setIsActive ]=useState(false)
     return <div className="flex justify-center items-center">
                   <div className="border-2 border-dotted  w-96 h-12 border-blue-500 flex justify-between items-center flex-row mt-2 rounded-md md:w-[1100px]">
-                     <span className="w-24 h-24  "><img src={Qbitlogo} alt="" type="image/avif"/></span>
+                     <span className="w-24 h-24 cursor-pointer " onClick={()=>navigate("/",{replace:true})}><img src={Qbitlogo} alt="" type="image/avif"/></span>
                      <span className="md:hidden ">
                            <svg onClick={()=>{setIsActive(!isActive)}} className="cursor-pointer z-50 relative w-12 h-12" xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 16 16"><path fill="#000000" fill-rule="evenodd" d="M2 3.75A.75.75 0 0 1 2.75 3h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 3.75M2 8a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 8m0 4.25a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75" clip-rule="evenodd"/></svg>
                             <div className={` duration-700  ease-in-out transform transition-transform absolute left-0 min-h-[30vh] left-0 top-[8%] w-full z-40 bg-white  border-1 border-blue-100 ${isActive?"opacity-100 translate-y-0":"opacity-0 -translate-y-10 pointer-events-none"}`}>
